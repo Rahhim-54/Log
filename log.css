@@ -92,13 +92,12 @@ body {
 .signup-text a:hover {
     text-decoration: underline;
 }
-
 /* Responsiveness for smaller devices */
 @media (max-width: 500px) {
     .login-container {
         padding: 10px;
-        max-width:100%;
-        height:50vh;
+        max-width: 100%;
+        height: 35vh; /* Adjusted height */
     }
 
     .login-form h2 {
