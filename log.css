@@ -1,29 +1,64 @@
 
-media (max-width: 500px) {
-    .login-container {
-        padding: 10px;
-        max-width: 100%;
-        height: 35vh; /* Adjusted height */
-    }
-
-    .login-form h2 {
-        font-size: 24px;
-    }
-
-    .input-box input,
-    .login-btn {
-        font-size: 14px;
-    }
-}
-
-
-/* General CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+.login-container {
+    width: 100%;
+    max-width: 300px;
+    height: 57vh;
+    padding: 20px;
+    background-color: rgba(62, 61, 61, 0.545);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: box-shadow 0.3s;
+}
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #042547;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: #f2f2f2;
+}
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* laptop*/
+
+@media (min-width: 768px){
 body {
     display: flex;
     justify-content: center;
@@ -36,7 +71,7 @@ body {
 .login-container {
     width: 100%;
     max-width: 320px;
-    height: 50vh;
+    height: 60vh;
     padding: 20px;
     background-color: rgba(62, 61, 61, 0.545);
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
@@ -44,9 +79,7 @@ body {
     transition: box-shadow 0.3s;
 }
 
-.login-container:hover {
-    box-shadow: 0 0 15px #0115f1fa;
-}
+
 
 .login-form h2 {
     text-align: center;
@@ -85,7 +118,8 @@ body {
     cursor: pointer;
     transition: background-color 0.3s;
 }
-
+}
+/*ending laptop responsiveness*/
 .login-btn:hover {
     background-color: #0056b3;
 }
@@ -111,41 +145,7 @@ body {
 .signup-text a:hover {
     text-decoration: underline;
 }
-/* Responsiveness for smaller devices */
-
-
-/* Responsiveness for tablets */
-@media (min-width: 501px) and (max-width: 768px) {
-    .login-container {
-        width: 100%;
-        max-width: 400px;
-        padding: 15px;
-    }
-
-    .login-form h2 {
-        font-size: 26px;
-    }
-
-    .input-box input,
-    .login-btn {
-        font-size: 15px;
-    }
+.login-container:hover {
+    box-shadow: 0 0 15px #0115f1fa;
 }
 
-/* Responsiveness for laptops */
-@media (min-width: 769px) and (max-width: 1024px) {
-    .login-container {
-        width: 100%;
-        max-width: 450px;
-        padding: 25px;
-    }
-
-    .login-form h2 {
-        font-size: 28px;
-    }
-
-    .input-box input,
-    .login-btn {
-        font-size: 16px;
-    }
-}
