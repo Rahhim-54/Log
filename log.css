@@ -148,4 +148,8 @@ body {
 .login-container:hover {
     box-shadow: 0 0 15px #0115f1fa;
 }
+.login-container{
+    overflow: hidden;
+}
+
 
