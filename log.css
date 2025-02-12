@@ -16,6 +16,10 @@
     border-radius: 10px;
     transition: box-shadow 0.3s;
 }
+.login-container{
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
 .login-btn {
     width: 100%;
     padding: 10px;
@@ -148,8 +152,6 @@ body {
 .login-container:hover {
     box-shadow: 0 0 15px #0115f1fa;
 }
-.login-container{
-    overflow: hidden;
-}
+
 
 
