@@ -15,11 +15,12 @@
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     transition: box-shadow 0.3s;
-}
-.login-container{
     overflow-x:hidden;
     overflow-y:hidden;
+    flex-direction:coloumn;
+
 }
+
 .login-btn {
     width: 100%;
     padding: 10px;
