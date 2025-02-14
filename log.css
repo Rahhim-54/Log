@@ -4,11 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-form {
-  width: 100%;
-  max-width: 400px;
-  margin: 0 auto;
-}
 
 .login-container { 
     width: 100%;
@@ -24,6 +19,11 @@ form {
 
 
 }
+
+  form {
+    width: 90%;
+    padding: 10px;
+  }
 
 .login-btn {
     width: 100%;
@@ -76,7 +76,11 @@ body {
     font-family: 'Poppins', sans-serif;
     background: #f2f2f2;
 }
-
+form {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
 .login-container {
     width: 100%;
     max-width: 320px;
