@@ -7,9 +7,10 @@
 
 
 .login-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     width: 100%;
     max-width: 300px;
-    max-height:600px;
     height: 57vh;
     padding: 20px;
     background-color: rgba(62, 61, 61, 0.545);
@@ -18,7 +19,7 @@
     transition: box-shadow 0.3s;
     overflow-x:hidden;
     overflow-y:hidden;
-    flex-direction:coloumn;
+
 
 }
 
